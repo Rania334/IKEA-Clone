@@ -17,7 +17,7 @@ import useProductViews from "../../../hooks/useProductViews";
 import { forwardRef, useRef, useState, useEffect } from "react";
 import CollapsibleSection from "./../../CollapsibleSection/CollapsibleSection";
 import ProductRating from "../../ProductRating/ProductRating";
-import styles from "./prdInfoSection.module.css";
+import styles from "./PrdInfoSection.module.css";
 import FavouriteManager from "../../../Pages/Favourite/TopSellerProductCarousel/FavouriteOffcanvaceCarousal/FavouriteManager";
 const {VITE_API_URL} = import.meta.env;
 const formatMeasurement = (measurement) => {
