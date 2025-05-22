@@ -1,7 +1,7 @@
 import { IoIosArrowForward } from "../../../common/react-icons/index";
 import useViewport from "../../../hooks/useViewport";
 import OffCanvas from "../../OffCanvas/OffCanvas";
-import styles from "./variantSelector.module.css";
+import styles from "./VariantSelector.module.css";
 import { useState, useRef } from "react";
 
 const VariantSelector = ({
